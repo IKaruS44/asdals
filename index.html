@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Calc</title>
+  </head>
+  <body>
+    <div class="inputs">
+      <div class="mainScreen">0</div>
+      <div class="flex-container">
+        <div class="1 btn" onclick="appendTomainScreen('1')">1</div>
+        <div class="2 btn" onclick="appendTomainScreen('2')">2</div>
+        <div class="3 btn" onclick="appendTomainScreen('3')">3</div>
+      </div>
+      <div class="flex-container">
+        <div class="4 btn" onclick="appendTomainScreen('4')">4</div>
+        <div class="5 btn" onclick="appendTomainScreen('5')">5</div>
+        <div class="6 btn" onclick="appendTomainScreen('6')">6</div>
+      </div>
+      <div class="flex-container">
+        <div class="7 btn" onclick="appendTomainScreen('7')">7</div>
+        <div class="8 btn" onclick="appendTomainScreen('8')">8</div>
+        <div class="9 btn" onclick="appendTomainScreen('9')">9</div>
+      </div>
+      <div class="flex-container">
+        <div class="n0 btn" onclick="appendTomainScreen('0')">0</div>
+        
+      </div>
+      <div class="flex-container">
+
+        <div class="+ btn" onclick="appendTomainScreen('+')">+</div>
+        <div class="- btn" onclick="appendTomainScreen('-')">-</div>
+        <div class="/ btn" onclick="appendTomainScreen('/')">/</div>
+      </div>
+      <div class="flex-container">
+        <div class="clearmainScreen btn" onclick="clearmainScreen()">C</div>
+        <div class="x btn" onclick="appendTomainScreen('*')">x</div>
+        <div class="= btn" onclick="calculateResult('=')">=</div>
+      </div>
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
